@@ -6,12 +6,19 @@ body {
 
 h1 {
 
-    font-size: 16px;
+    font-size: 25px;
 
 }
 
-section {
+p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.felxible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -20,7 +27,7 @@ section {
 }
 
 .half-width image {
-    width: 80%;
+    width: 100%;
 }
 
 .link-button {
@@ -37,4 +44,24 @@ section {
     background-image: url(4.jpg);
     background-repeat: no-repeat;
 
+}
+
+.dream-big {
+    background-image: url(5.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experiences-area {
+    background-image: url(3.png);
+    background-repeat: no-repeat;
+}
+
+.experiences-type {
+    box-shadow: 10px 10px 50px gray;
+    margin-right: 70px;
+    margin-left: 70px;
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
 }
