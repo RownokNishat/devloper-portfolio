@@ -59,9 +59,30 @@ p {
 
 .experiences-type {
     box-shadow: 10px 10px 50px gray;
-    margin-right: 70px;
-    margin-left: 70px;
+    margin-right: 90px;
+    margin-left: 90px;
     width: 50%;
     text-align: justify;
     padding: 20px;
+    border-radius: 20px;
+}
+
+#pro-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+
+
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, purple);
+    border-image-slice: 1;
+
+
+}
+
+footer p {
+    text-align: center;
 }
